@@ -1,7 +1,6 @@
-spring.profile.active=deve
-
----
+spring.profile.active=test
 server.port=9001
+---
 spring.profile.active=deve
 spring.application.name=springcloud-config-client
 eureka.client.service-url.defaultZone:http://127.0.0.1:7001/eureka/
